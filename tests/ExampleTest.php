@@ -8,14 +8,16 @@ use Ilanh\FixedWidthExporter\FixedWidthExporterServiceProvider;
 class ExampleTest extends TestCase
 {
 
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [FixedWidthExporterServiceProvider::class];
     }
-    
-    /** @test */
-    public function true_is_true()
+
+    /** @test
+    @covers true_is_true
+     */
+    public function true_is_true(): void
     {
-        $this->assertTrue(true);
+        self::assertTrue(true);
     }
 }
