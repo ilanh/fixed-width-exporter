@@ -1,0 +1,54 @@
+{
+    "name": "ilanh/fixed-width-exporter",
+    "description": "Export models to fixed width strings",
+    "keywords": [
+        "ilanh",
+        "fixed-width-exporter"
+    ],
+    "homepage": "https://github.com/ilanh/fixed-width-exporter",
+    "license": "GNU AGPLv",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ilan Harel",
+            "email": "ilanharel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilanh\\FixedWidthExporter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ilanh\\FixedWidthExporter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ilanh\\FixedWidthExporter\\FixedWidthExporterServiceProvider"
+            ],
+            "aliases": {
+                "FixedWidthExporter": "Ilanh\\FixedWidthExporter\\FixedWidthExporterFacade"
+            }
+        }
+    }
+}
