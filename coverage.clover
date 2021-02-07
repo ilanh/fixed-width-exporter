@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1612443156">
+  <project timestamp="1612443156">
+    <file name="/Users/ilanharel/Developer/fixed-width-exporter/src/FixedWidthExporter.php">
+      <class name="Ilanh\FixedWidthExporter\FixedWidthExporter" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/Users/ilanharel/Developer/fixed-width-exporter/src/FixedWidthExporterFacade.php">
+      <class name="Ilanh\FixedWidthExporter\FixedWidthExporterFacade" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <metrics loc="21" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/Users/ilanharel/Developer/fixed-width-exporter/src/FixedWidthExporterServiceProvider.php">
+      <class name="Ilanh\FixedWidthExporter\FixedWidthExporterServiceProvider" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="12" coveredelements="10"/>
+      </class>
+      <line num="12" type="method" name="boot" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="50" type="method" name="register" visibility="public" complexity="1" crap="1.01" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="59" type="stmt" count="1"/>
+      <metrics loc="60" ncloc="54" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="12" coveredelements="10"/>
+    </file>
+    <metrics files="3" loc="89" ncloc="74" classes="2" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="9" elements="14" coveredelements="10"/>
+  </project>
+</coverage>
